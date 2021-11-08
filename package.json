@@ -1,0 +1,17 @@
+{
+  "name": "cordova-plugin-truetime",
+  "version": "0.0.1",
+  "description": "truetime",
+  "cordova": {
+    "id": "cordova-plugin-truetime",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "vishnu",
+  "license": "ISC"
+}
