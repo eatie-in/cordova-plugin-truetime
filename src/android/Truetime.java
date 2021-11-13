@@ -77,6 +77,7 @@ public class Truetime extends CordovaPlugin {
       sendFallbackTime(callbackContext);
       return;
     }
+    Log.i(TAG, "Using true time");
     Date date = TrueTime.now();
     PluginResult pluginResult = new PluginResult(PluginResult.Status.OK, Long.toString(date.getTime()));
     callbackContext.sendPluginResult(pluginResult);
